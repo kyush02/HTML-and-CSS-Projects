@@ -22,7 +22,7 @@ I have written the code myself as part of my learning process to understand layo
 The original concepts, project ideas, and guidance were learned from the following YouTube playlist:
 
 🔗 **YouTube Playlist:**  
-https://www.youtube.com/playlist?list=PLAsPrIlN9FQer6BxDBZPtT5JXHaQZ
+https://www.youtube.com/playlist?list=PLAsPrIlN9FQer6BxDBZPtT5JXHaQZNA9g
 
 All credit for the teaching and project inspiration goes to the original creator of this playlist.
 
