@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.toggle{
+    margin: 30%;
+}
+
+label{
+    /* background-color: grey;  will be removed  */
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+span{
+    width: 80px;
+    height: 30px;
+    background-color: grey;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /* opacity: 0.2; */
+    border-radius: 20px;
+    /* transition: 0.55s; */
+
+}
+
+span::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    transition: 0.55s;
+
+}
+
+input{
+    visibility: hidden;
+}
+
+input:checked + span::before{
+    transform: translateX(50px);
+    transition: 0.55s;
+    /* background-color: red; */
+    /* opacity: 0%; */
+}
+
+input:checked + span{
+    background: linear-gradient(to right, royalblue , skyblue);
+    transition: 0.55s;
+}
