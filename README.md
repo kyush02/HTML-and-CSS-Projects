@@ -40,3 +40,6 @@ All credit for the teaching and project inspiration goes to the original creator
 ## 📖 Disclaimer
 
 These projects are created **strictly for educational and learning purposes** and are not claimed as original design work.
+
+
+<h2 align="right">~ KK</h2>
